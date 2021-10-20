@@ -1,0 +1,42 @@
+.userListOuterContainer{
+    margin-left: 10px;
+    padding: 0px 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.topBar{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-weight: 600;
+    padding: 0px 15px;
+    background: #2979FF;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px 4px 0 0;
+    height: 65px;
+    width: 100%;
+}
+
+.userListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.userListItem{
+    padding: 5px 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
